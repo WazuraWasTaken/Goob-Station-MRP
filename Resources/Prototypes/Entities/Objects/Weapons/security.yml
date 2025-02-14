@@ -107,9 +107,13 @@
     attackRate: 0.8
     damage:
       types:
-        Blunt: 16
+        Blunt: 20
     soundHit:
       collection: MetalThud
+  - type: StaminaDamageOnHit
+    damage: 30
+  - type: StaminaDamageOnCollide
+    damage: 30
     bluntStaminaDamageFactor: 2
     heavyRateModifier: 1
     heavyDamageBaseModifier: 1.2
