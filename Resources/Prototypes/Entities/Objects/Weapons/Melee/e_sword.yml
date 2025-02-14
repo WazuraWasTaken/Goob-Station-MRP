@@ -38,8 +38,8 @@
         variation: 0.125
     activatedDamage:
         types:
-            Slash: 8
-            Heat: 10
+            Slash: 15
+            Heat: 15
             Structural: 20
   - type: ItemToggleDamageOtherOnHit
     activatedStaminaCost: 6
@@ -142,8 +142,8 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 4
-            Heat: 8
+            Slash: 10
+            Heat: 10
     deactivatedSecret: true
   - type: ItemToggleActiveSound
     activeSound:
@@ -283,7 +283,7 @@
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:
-            Slash: 6
+            Slash: 10
             Heat: 12
   - type: GuideHelp  
     guides: [ SecurityWeapons ]  
@@ -312,8 +312,8 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 8
-            Heat: 13
+            Slash: 12
+            Heat: 12
             Structural: 15
   - type: ItemToggleActiveSound
     activeSound:
