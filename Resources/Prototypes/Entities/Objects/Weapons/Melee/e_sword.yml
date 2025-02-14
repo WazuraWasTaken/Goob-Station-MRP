@@ -38,7 +38,7 @@
         variation: 0.125
     activatedDamage:
         types:
-            Slash: 15
+            Slash: 10
             Heat: 15
             Structural: 20
   - type: ItemToggleDamageOtherOnHit
@@ -142,7 +142,7 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 10
+            Slash: 5
             Heat: 10
     deactivatedSecret: true
   - type: ItemToggleActiveSound
@@ -239,7 +239,7 @@
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:
-            Slash: 10
+            Slash: 8
             Heat: 12
     deactivatedSecret: true
   - type: Sprite
@@ -283,7 +283,7 @@
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:
-            Slash: 10
+            Slash: 8
             Heat: 12
   - type: GuideHelp  
     guides: [ SecurityWeapons ]  
@@ -312,7 +312,7 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 12
+            Slash: 10
             Heat: 12
             Structural: 15
   - type: ItemToggleActiveSound
