@@ -187,13 +187,11 @@
     range: 1.85
     damage:
       types:
-        Slash: 19
-        Blunt: 1
-    bluntStaminaDamageFactor: 25.0
+        Slash: 20
     heavyRateModifier: 2
     heavyRangeModifier: 1
     heavyDamageBaseModifier: 1
-    heavyStaminaCost: 15
+    heavyStaminaCost: 9
     maxTargets: 10
     angle: 200
     soundHit:
