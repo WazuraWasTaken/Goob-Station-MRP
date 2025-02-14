@@ -241,6 +241,21 @@
     - Katana
 
 - type: loadout
+  id: LoadoutSalvageWeaponsClaymore
+  category: JobsLogisticsSalvageSpecialist
+  cost: 5
+  canBeHeirloom: true
+  customColorTint: true # Go read Neuromancer
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistWeapons
+    - !type:CharacterJobRequirement
+      jobs:
+        - SalvageSpecialist
+  items:
+    - Claymore
+
+- type: loadout
   id: LoadoutSalvageWeaponsWakizashi
   category: JobsLogisticsSalvageSpecialist
   cost: 1
