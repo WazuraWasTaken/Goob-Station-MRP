@@ -20,8 +20,8 @@
     damage:
       types:
         # axes are kinda like sharp hammers, you know?
-        Blunt: 4
-        Slash: 6
+        Blunt: 5
+        Slash: 10
         Structural: 10
     heavyDamageBaseModifier: 1.0
     heavyStaminaCost: 10
@@ -37,8 +37,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 2
-        Slash: 5
+        Slash: 10
         Structural: 40
   - type: Item
     size: Ginormous
